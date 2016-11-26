@@ -1,0 +1,64 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+a{ text-decoration:none;}
+
+#admin-header{ width:700px; margin:0 auto;}
+
+#admin-wrapper{ width:700px; background:#c7edb2; margin:0 auto; border-radius:10px; -webkit-border-radius:10px; -moz-border-radius:10px; padding:30px;}
+
+.fl{ float:left;}
+.fr{ float:right;}
+
+.clear{ clear:both;}
+
+h1{ text-align: center; color:#063; font-family:Verdana, Geneva, sans-serif;}
+h1 span{ font-size:20px; color:#000;}
+
+.icons{ text-align:center; margin-bottom:10px;}
+.icons a{ color:#FFF;}
+.icons a:hover{ color:#FF0;}
+
+
+.admin-col{ width:274px; background:#FFF; padding:30px; border:1px solid #666; border-radius:10px; -webkit-border-radius:10px; -moz-border-radius:10px; text-align:center; font-weight:bold; text-transform:uppercase; font-size:16px; color:#096;}
+.admin-col:hover{ background:#f6f6f6;}
+
+.add-btn{ font-size:12px; border-radius:5px; -webkit-border-radius:5px; -moz-border-radius:5px; padding:10px 20px; text-decoration:none; background:#FFF; font-weight:bold; color:#000; border:none; cursor:pointer;}
+.add-btn:hover{ color:#000; background:#6FF;}
+
+.logout-btn{ font-size:12px; text-transform:uppercase; border-radius:5px; -webkit-border-radius:5px; -moz-border-radius:5px; padding:10px 20px; text-decoration:none; background:#c7edb2; font-weight:bold; color:#000;}
+.logout-btn:hover{ color:#000; background:#6FF;}
+
+
+
+ul.pagination {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+ul.pagination li {display: inline;}
+
+ul.pagination li a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #4CAF50;;
+}
+
+ul.pagination li a.active {
+    background-color: #4CAF50;
+    color: white;
+    border: 1px solid #4CAF50;
+}
+
+ul.pagination li a:hover:not(.active) {background-color: #FFF;}
+
+div.center {text-align: center;}
+
+
+
+
